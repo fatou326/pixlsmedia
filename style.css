@@ -69,7 +69,6 @@ nav ul li input {
   padding: 3px 3px 5px 3px;
   border-radius: 10px;
   gap: 30px;
-  /* text-align: center; */
 }
 nav li input {
   display: flex;
@@ -77,6 +76,32 @@ nav li input {
   border: 2px solid #ddd;
   border-radius: 4px;
   width: 300px;
+}
+/* .search-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+  margin-left: 40px;
+} */
+.search {
+  /* width: 20px;
+  position: absolute;
+  left: 15px;
+  top: 8px; */
+  background-color: #e4e2e2;
+  border: none;
+}
+.search-wrapper {
+  display: flex;
+  background-color: #e4e2e2;
+  border-radius: 20px;
+}
+.search-wrapper img {
+  left: 15px;
+  top: 8px;
+  width: 20px;
+  padding-left: 10px;
 }
 .btn-wrapper button {
   background-color: #d1ff97;
@@ -144,7 +169,7 @@ section .right {
   margin-top: 20px;
 }
 .left .tittle-wrapper span {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 10px;
@@ -159,25 +184,43 @@ section .right {
   border: none;
   align-items: center;
   justify-content: center;
-  gap: 1px;
+  gap: 5px;
 }
-.create-account-wrapper button {
-  padding: 10px;
-  width: 150px;
+/* .create-account-wrapper span {
+  font-size: 19px;
+} */
+.account {
+  border-bottom: 3px solid black;
+}
+.account a {
+  margin-top: 10px;
+  /* border-bottom: 3px solid black; */
+  color: #181818;
+}
+/* .account a:hover {
+  color: #f47a7a;
+} */
+
+.a {
+  font-size: 17px;
+  width: 140px;
+  padding-left: 10px;
   margin-top: 10px;
   /* background-color: #8f8b8b; */
   border: none;
   outline: none;
+  box-shadow: none;
+  border-radius: none;
   border-bottom: 20px;
 }
 .create-account-wrapper .arrow {
   color: black;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 900;
 }
-.create-account-wrapper button:hover {
+/* .create-account-wrapper button:hover {
   background: none;
-}
+ }  */
 button a {
   text-decoration: none;
   text-decoration-color: none;
@@ -303,27 +346,30 @@ form .text-boxes input {
   justify-content: space-between;
   margin-bottom: 20px;
 }
+/* .options label input .checkbox {
+  background-color: #d1ff97;
+} */
 .options label {
   display: flex;
   align-items: center;
 }
 .options a {
-  color: #999;
+  color: #4f4d4d;
   text-decoration: none;
   font-size: 14px;
 }
 .options a:hover {
-  color: #666;
+  color: #fbeaea;
 }
 .login-form button {
   width: 430px;
   padding: 10px;
   border: none;
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 700;
   color: white;
-  border-radius: 10px;
-  margin-top: 10px;
+  border-radius: 15px;
+  margin-top: 5px;
   margin-left: 5px;
   background-color: #181818;
   cursor: pointer;
