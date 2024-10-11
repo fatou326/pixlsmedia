@@ -56,7 +56,7 @@ nav {
 }
 .nav a:hover,
 .nav a.active {
-  font-size: 500;
+  /* font-size: 400; */
   color: black;
 }
 
